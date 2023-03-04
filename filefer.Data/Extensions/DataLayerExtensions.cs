@@ -1,6 +1,5 @@
 ﻿using filefer.Data.Context;
-using filefer.Entity.Entites;
-using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -10,7 +9,7 @@ namespace filefer.Data.Extensions
     {
         public static IServiceCollection LoadDataLayerExtensions(this IServiceCollection services, IConfiguration configuration)
         {
-          
+            services.AddDbContext<AppDbContext>(opt => opt.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
 
             return services;
         }

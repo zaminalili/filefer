@@ -1,0 +1,17 @@
+C:\Users\User\Documents\GitHub\filefer\filefer.Data\bin\Debug\net6.0\filefer.Data.deps.json
+C:\Users\User\Documents\GitHub\filefer\filefer.Data\bin\Debug\net6.0\filefer.Data.runtimeconfig.json
+C:\Users\User\Documents\GitHub\filefer\filefer.Data\bin\Debug\net6.0\filefer.Data.dll
+C:\Users\User\Documents\GitHub\filefer\filefer.Data\bin\Debug\net6.0\filefer.Data.pdb
+C:\Users\User\Documents\GitHub\filefer\filefer.Data\bin\Debug\net6.0\filefer.Entity.dll
+C:\Users\User\Documents\GitHub\filefer\filefer.Data\bin\Debug\net6.0\filefer.Entity.pdb
+C:\Users\User\Documents\GitHub\filefer\filefer.Data\obj\Debug\net6.0\filefer.Data.csproj.AssemblyReference.cache
+C:\Users\User\Documents\GitHub\filefer\filefer.Data\obj\Debug\net6.0\filefer.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\GitHub\filefer\filefer.Data\obj\Debug\net6.0\filefer.Data.AssemblyInfoInputs.cache
+C:\Users\User\Documents\GitHub\filefer\filefer.Data\obj\Debug\net6.0\filefer.Data.AssemblyInfo.cs
+C:\Users\User\Documents\GitHub\filefer\filefer.Data\obj\Debug\net6.0\filefer.Data.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\filefer\filefer.Data\obj\Debug\net6.0\filefer.Data.csproj.CopyComplete
+C:\Users\User\Documents\GitHub\filefer\filefer.Data\obj\Debug\net6.0\filefer.Data.dll
+C:\Users\User\Documents\GitHub\filefer\filefer.Data\obj\Debug\net6.0\refint\filefer.Data.dll
+C:\Users\User\Documents\GitHub\filefer\filefer.Data\obj\Debug\net6.0\filefer.Data.pdb
+C:\Users\User\Documents\GitHub\filefer\filefer.Data\obj\Debug\net6.0\filefer.Data.genruntimeconfig.cache
+C:\Users\User\Documents\GitHub\filefer\filefer.Data\obj\Debug\net6.0\ref\filefer.Data.dll
