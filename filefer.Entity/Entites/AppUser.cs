@@ -6,5 +6,7 @@ namespace filefer.Entity.Entites
     {
         public DateTime CreatedDate { get; set; } = DateTime.Now;
         public DateTime? DeletedDate { get; set; }
+
+        public ICollection<UploadedFile> UploadedFiles { get; set; }
     }
 }
