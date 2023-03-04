@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\Filefer\\Filefer\\filefer.Web\\filefer.Web.csproj": {}
+    "C:\\Users\\User\\Documents\\GitHub\\filefer\\filefer.Web\\filefer.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\Filefer\\Filefer\\filefer.Web\\filefer.Web.csproj": {
+    "C:\\Users\\User\\Documents\\GitHub\\filefer\\filefer.Web\\filefer.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\Filefer\\Filefer\\filefer.Web\\filefer.Web.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\filefer\\filefer.Web\\filefer.Web.csproj",
         "projectName": "filefer.Web",
-        "projectPath": "C:\\Users\\User\\Desktop\\Filefer\\Filefer\\filefer.Web\\filefer.Web.csproj",
+        "projectPath": "C:\\Users\\User\\Documents\\GitHub\\filefer\\filefer.Web\\filefer.Web.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\Filefer\\Filefer\\filefer.Web\\obj\\",
+        "outputPath": "C:\\Users\\User\\Documents\\GitHub\\filefer\\filefer.Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

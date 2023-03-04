@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\Filefer\\Filefer\\filefer.Data\\filefer.Data.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\filefer\\filefer.Data\\filefer.Data.csproj",
       "projectName": "filefer.Data",
-      "projectPath": "C:\\Users\\User\\Desktop\\Filefer\\Filefer\\filefer.Data\\filefer.Data.csproj",
+      "projectPath": "C:\\Users\\User\\Documents\\GitHub\\filefer\\filefer.Data\\filefer.Data.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\Filefer\\Filefer\\filefer.Data\\obj\\",
+      "outputPath": "C:\\Users\\User\\Documents\\GitHub\\filefer\\filefer.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

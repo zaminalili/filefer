@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\Filefer\\Filefer\\filefer.Entity\\filefer.Entity.csproj": {}
+    "C:\\Users\\User\\Documents\\GitHub\\filefer\\filefer.Entity\\filefer.Entity.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\Filefer\\Filefer\\filefer.Entity\\filefer.Entity.csproj": {
+    "C:\\Users\\User\\Documents\\GitHub\\filefer\\filefer.Entity\\filefer.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\Filefer\\Filefer\\filefer.Entity\\filefer.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\filefer\\filefer.Entity\\filefer.Entity.csproj",
         "projectName": "filefer.Entity",
-        "projectPath": "C:\\Users\\User\\Desktop\\Filefer\\Filefer\\filefer.Entity\\filefer.Entity.csproj",
+        "projectPath": "C:\\Users\\User\\Documents\\GitHub\\filefer\\filefer.Entity\\filefer.Entity.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\Filefer\\Filefer\\filefer.Entity\\obj\\",
+        "outputPath": "C:\\Users\\User\\Documents\\GitHub\\filefer\\filefer.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
