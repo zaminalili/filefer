@@ -1,4 +1,7 @@
+using filefer.Data.Context;
 using filefer.Data.Extensions;
+using filefer.Entity.Entites;
+using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -6,6 +9,11 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 builder.Services.LoadDataLayerExtensions(builder.Configuration);
+
+builder.Services.AddIdentity<AppUser, AppRole>()
+                                                .AddRoleManager<RoleManager<AppRole>>()
+                                                .AddEntityFrameworkStores<AppDbContext>()
+                                                .AddDefaultTokenProviders();
 
 var app = builder.Build();
 
@@ -22,6 +30,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(
