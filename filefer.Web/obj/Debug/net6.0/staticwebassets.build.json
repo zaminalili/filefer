@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "U3ot2bYSdrJq73+EtaXr8Zw5f5NFjonlptL+48l8SDE=",
+  "Hash": "AFqg6hW7gE7lrR566ER0q5o6XFUuBX1WCR9L6MDrAcg=",
   "Source": "filefer.Web",
   "BasePath": "_content/filefer.Web",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\filefer\\filefer.Web\\wwwroot\\img\\files.gif",
+      "SourceId": "filefer.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\filefer\\filefer.Web\\wwwroot\\",
+      "BasePath": "_content/filefer.Web",
+      "RelativePath": "img/files.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\files.gif"
     },
     {
       "Identity": "C:\\Users\\User\\Documents\\GitHub\\filefer\\filefer.Web\\wwwroot\\js\\site.js",

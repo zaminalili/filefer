@@ -21,4 +21,8 @@
     <ProjectReference Include="..\filefer.Data\filefer.Data.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\img\" />
+  </ItemGroup>
+
 </Project>
