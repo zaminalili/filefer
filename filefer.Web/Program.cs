@@ -18,6 +18,25 @@ builder.Services.AddIdentity<AppUser, AppRole>()
 
 builder.Services.AddScoped<IAutoKey, AutoKey>();
 
+builder.Services.AddSession();
+
+builder.Services.ConfigureApplicationCookie(config =>
+{
+    config.LoginPath = new PathString("/Auth/Login");
+    config.LogoutPath = new PathString("/Auth/Logout");
+    config.Cookie = new CookieBuilder
+    {
+        Name = "Filefer",
+        HttpOnly = true,
+        SameSite = SameSiteMode.Strict,
+        SecurePolicy = CookieSecurePolicy.SameAsRequest
+    };
+
+    config.SlidingExpiration = true;
+    config.ExpireTimeSpan = TimeSpan.FromHours(12);
+});
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -30,6 +49,8 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
+
+app.UseSession();
 
 app.UseRouting();
 

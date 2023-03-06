@@ -1,5 +1,6 @@
 ﻿using filefer.Entity.Entites;
 using filefer.Service.AutoKey;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
@@ -18,6 +19,7 @@ namespace filefer.Web.Controllers
             this.key = key;
         }
 
+        [Authorize]
         public async Task<IActionResult> Index()
         {
             var user = await userManager.GetUserAsync(User);
