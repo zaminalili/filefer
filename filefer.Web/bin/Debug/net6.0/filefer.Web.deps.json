@@ -10,7 +10,8 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": "6.0.14",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.14",
-          "filefer.Data": "1.0.0"
+          "filefer.Data": "1.0.0",
+          "filefer.Service": "1.0.0"
         },
         "runtime": {
           "filefer.Web.dll": {}
@@ -514,6 +515,14 @@
         "runtime": {
           "filefer.Entity.dll": {}
         }
+      },
+      "filefer.Service/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+        },
+        "runtime": {
+          "filefer.Service.dll": {}
+        }
       }
     }
   },
@@ -865,6 +874,11 @@
       "sha512": ""
     },
     "filefer.Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "filefer.Service/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

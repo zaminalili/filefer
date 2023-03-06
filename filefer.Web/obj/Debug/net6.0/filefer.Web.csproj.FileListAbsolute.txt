@@ -74,3 +74,5 @@ C:\Users\User\Documents\GitHub\filefer\filefer.Web\obj\Debug\net6.0\filefer.Web.
 C:\Users\User\Documents\GitHub\filefer\filefer.Web\obj\Debug\net6.0\ref\filefer.Web.dll
 C:\Users\User\Documents\GitHub\filefer\filefer.Web\bin\Debug\net6.0\Humanizer.dll
 C:\Users\User\Documents\GitHub\filefer\filefer.Web\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\User\Documents\GitHub\filefer\filefer.Web\bin\Debug\net6.0\filefer.Service.dll
+C:\Users\User\Documents\GitHub\filefer\filefer.Web\bin\Debug\net6.0\filefer.Service.pdb

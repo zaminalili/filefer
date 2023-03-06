@@ -893,6 +893,19 @@
         "runtime": {
           "bin/placeholder/filefer.Entity.dll": {}
         }
+      },
+      "filefer.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+        },
+        "compile": {
+          "bin/placeholder/filefer.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/filefer.Service.dll": {}
+        }
       }
     }
   },
@@ -2215,13 +2228,19 @@
       "type": "project",
       "path": "../filefer.Entity/filefer.Entity.csproj",
       "msbuildProject": "../filefer.Entity/filefer.Entity.csproj"
+    },
+    "filefer.Service/1.0.0": {
+      "type": "project",
+      "path": "../filefer.Service/filefer.Service.csproj",
+      "msbuildProject": "../filefer.Service/filefer.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.EntityFrameworkCore.Design >= 6.0.14",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.14",
-      "filefer.Data >= 1.0.0"
+      "filefer.Data >= 1.0.0",
+      "filefer.Service >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2253,6 +2272,9 @@
           "projectReferences": {
             "C:\\Users\\User\\Documents\\GitHub\\filefer\\filefer.Data\\filefer.Data.csproj": {
               "projectPath": "C:\\Users\\User\\Documents\\GitHub\\filefer\\filefer.Data\\filefer.Data.csproj"
+            },
+            "C:\\Users\\User\\Documents\\GitHub\\filefer\\filefer.Service\\filefer.Service.csproj": {
+              "projectPath": "C:\\Users\\User\\Documents\\GitHub\\filefer\\filefer.Service\\filefer.Service.csproj"
             }
           }
         }

@@ -1,6 +1,6 @@
 ﻿namespace filefer.Service.AutoKey
 {
-    public class AutoKey
+    public class AutoKey: IAutoKey
 	{
         Random random = new Random();
 

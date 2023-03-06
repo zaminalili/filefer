@@ -1,6 +1,7 @@
 using filefer.Data.Context;
 using filefer.Data.Extensions;
 using filefer.Entity.Entites;
+using filefer.Service.AutoKey;
 using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,6 +15,8 @@ builder.Services.AddIdentity<AppUser, AppRole>()
                                                 .AddRoleManager<RoleManager<AppRole>>()
                                                 .AddEntityFrameworkStores<AppDbContext>()
                                                 .AddDefaultTokenProviders();
+
+builder.Services.AddScoped<IAutoKey, AutoKey>();
 
 var app = builder.Build();
 

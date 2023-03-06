@@ -19,6 +19,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\filefer.Data\filefer.Data.csproj" />
+    <ProjectReference Include="..\filefer.Service\filefer.Service.csproj" />
   </ItemGroup>
 
   <ItemGroup>
