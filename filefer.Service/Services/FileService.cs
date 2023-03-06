@@ -14,14 +14,10 @@ namespace filefer.Service.Services
         private readonly IUnitOfWork unitOfWork;
         private readonly IFileHelper fileHelper;
 
-        private readonly string wwwroot;
-        private readonly IHostingEnvironment env;
-        private const string folderName = "Files";
+        
 
-        public FileService(IHostingEnvironment env, IUnitOfWork unitOfWork, IFileHelper fileHelper)
+        public FileService(IUnitOfWork unitOfWork, IFileHelper fileHelper)
         {
-            this.env = env;
-            wwwroot = env.WebRootPath;
             this.unitOfWork = unitOfWork;
             this.fileHelper = fileHelper;
         }
