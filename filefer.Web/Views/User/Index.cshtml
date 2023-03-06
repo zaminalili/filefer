@@ -2,6 +2,9 @@
 	Layout= null;
 }
 
+@using filefer.Entity.Models
+@model UploadedFileViewModel
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,7 +29,14 @@
     </nav>
 
     
+    <form asp-controller="File" asp-action="Upload" method="post" enctype="multipart/form-data" class="mb-3">
+        <input asp-for="UserId" type="hidden" value="@ViewBag.Id" />
+        <input asp-for="Key" type="hidden" value="@ViewBag.Key" />
+        @*<label for="formFile" class="form-label">Default file input example</label>*@
+        <input asp-for="File" class="form-control" type="file" id="formFile">
 
+        <button type="submit" class="btn btn-primary mb-3">Submit</button>
+    </form>
 
 </body>
 </html>

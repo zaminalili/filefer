@@ -2,6 +2,8 @@ using filefer.Data.Context;
 using filefer.Data.Extensions;
 using filefer.Entity.Entites;
 using filefer.Service.AutoKey;
+using filefer.Service.Helpers;
+using filefer.Service.Services;
 using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -17,6 +19,9 @@ builder.Services.AddIdentity<AppUser, AppRole>()
                                                 .AddDefaultTokenProviders();
 
 builder.Services.AddScoped<IAutoKey, AutoKey>();
+
+builder.Services.AddScoped<IFileService, FileService>();
+builder.Services.AddScoped<IFileHelper, FileHerper>();
 
 builder.Services.AddSession();
 

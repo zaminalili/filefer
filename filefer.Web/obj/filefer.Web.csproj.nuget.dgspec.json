@@ -139,6 +139,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.14, )"
@@ -201,7 +205,14 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\User\\Documents\\GitHub\\filefer\\filefer.Data\\filefer.Data.csproj": {
+                "projectPath": "C:\\Users\\User\\Documents\\GitHub\\filefer\\filefer.Data\\filefer.Data.csproj"
+              },
+              "C:\\Users\\User\\Documents\\GitHub\\filefer\\filefer.Entity\\filefer.Entity.csproj": {
+                "projectPath": "C:\\Users\\User\\Documents\\GitHub\\filefer\\filefer.Entity\\filefer.Entity.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -214,6 +225,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
               "version": "[6.0.0, )"
