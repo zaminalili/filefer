@@ -17,6 +17,7 @@ namespace filefer.Data.Extensions
 
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
             services.AddScoped<IUnitOfWork, UnitOfWork>();
+            services.AddScoped<IFileRepository, FileRepository>();
 
             return services;
         }

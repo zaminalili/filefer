@@ -1,5 +1,6 @@
 ﻿using filefer.Entity.Entites;
 using filefer.Service.AutoKey;
+using filefer.Service.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -11,12 +12,14 @@ namespace filefer.Web.Controllers
         private readonly UserManager<AppUser> userManager;
         private readonly SignInManager<AppUser> signInManager;
         private readonly IAutoKey key;
+        private readonly IFileService fileService;
 
-        public UserController(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, IAutoKey key)
+        public UserController(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, IAutoKey key, IFileService fileService)
         {
             this.userManager = userManager;
             this.signInManager = signInManager;
             this.key = key;
+            this.fileService = fileService;
         }
 
         [Authorize]
@@ -27,6 +30,10 @@ namespace filefer.Web.Controllers
             ViewBag.Id = user.Id;
             ViewBag.Key = user.UserName;
 
+            var files = await fileService.GetUserAllFilesAsync(user.Id);
+           
+            ViewBag.Files = files;
+            
             return View();
         }
 
