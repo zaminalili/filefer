@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Syl+eAn9qMLScpXHlN8qKloJfwuMtCHUcq+i3BfEsKhGtIo5ZhRfT3uaI4OlmminXDlUukxOBwHLprTCP0HuwQ==",
+  "dgSpecHash": "WloAbIrUr6Sj3dKEwhxHBCve2LdA45DKOap5xw/6Cp3uj9S3JRCSYeXQLSOyPfi4/YNEkhTsFF9ZKhkhC0EGGA==",
   "success": true,
   "projectFilePath": "C:\\Users\\User\\Documents\\GitHub\\filefer\\filefer.Web\\filefer.Web.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\fluentvalidation\\11.2.1\\fluentvalidation.11.2.1.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.1\\fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",

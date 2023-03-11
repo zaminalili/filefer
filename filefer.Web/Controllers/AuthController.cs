@@ -1,5 +1,6 @@
 ﻿using filefer.Entity.Entites;
 using filefer.Entity.Models;
+using filefer.Service.FluentValidation;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -25,28 +26,31 @@ namespace filefer.Web.Controllers
         [HttpPost]
         public async Task<IActionResult> Login(LoginViewModel model)
         {
-            if (ModelState.IsValid)
+            var validator = new LoginValidator();
+            var result = await validator.ValidateAsync(model);
+
+            if (result.IsValid)
             {
                 var user = await userManager.FindByNameAsync(model.UserName);
 
                 if (user != null)
                 {
-                    var result = await signInManager.PasswordSignInAsync(user, model.UserName+"Def@ult", false, false);
+                    var signinResult = await signInManager.PasswordSignInAsync(user, model.UserName+"Def@ult", false, false);
 
-                    if (result.Succeeded)
+                    if (signinResult.Succeeded)
                     {
                         return RedirectToAction("Index", "User");
                     }
                     else
                     {
-                        ModelState.AddModelError("", "Unsucceeded Key");
+                        ModelState.AddModelError("", "Key input failed");
 
                         return View();
                     }
                 }
                 else
                 {
-                    ModelState.AddModelError("", "Unsucceeded Key");
+                    ModelState.AddModelError("", "Key input failed");
 
                     return View();
                 }
