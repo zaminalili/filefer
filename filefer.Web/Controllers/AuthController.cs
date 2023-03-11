@@ -31,11 +31,14 @@ namespace filefer.Web.Controllers
 
             if (result.IsValid)
             {
-                var user = await userManager.FindByNameAsync(model.UserName);
+                string UserName = model.UserName.ToUpper();
+                string Password = UserName + "Def@ult";
+                
+                var user = await userManager.FindByNameAsync(UserName);
 
                 if (user != null)
                 {
-                    var signinResult = await signInManager.PasswordSignInAsync(user, model.UserName+"Def@ult", false, false);
+                    var signinResult = await signInManager.PasswordSignInAsync(user, Password, false, false);
 
                     if (signinResult.Succeeded)
                     {
