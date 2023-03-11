@@ -1,9 +1,10 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using filefer.Entity.Models;
+using Microsoft.AspNetCore.Http;
 
 namespace filefer.Service.Helpers
 {
     public interface IFileHelper
     {
-        Task<string> Upload(IFormFile file);
+        Task<AddFileViewModel> Upload(IFormFile file);
     }
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "i6xTObF35SyTUFlpq9qgbSz+zzd7/R1/4E8bUXDNmsg=",
+  "Hash": "6tV4+WVfe4LEkMTlr50uMsBeUTT8s1pImxnwI48mlQU=",
   "Source": "filefer.Web",
   "BasePath": "_content/filefer.Web",
   "Mode": "Default",
@@ -221,6 +221,23 @@
       "OriginalItemSpec": "wwwroot\\Files\\Screenshot (49)-2435.png"
     },
     {
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\filefer\\filefer.Web\\wwwroot\\Files\\Screenshot (49)-4344.png",
+      "SourceId": "filefer.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\filefer\\filefer.Web\\wwwroot\\",
+      "BasePath": "_content/filefer.Web",
+      "RelativePath": "Files/Screenshot (49)-4344.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\Screenshot (49)-4344.png"
+    },
+    {
       "Identity": "C:\\Users\\User\\Documents\\GitHub\\filefer\\filefer.Web\\wwwroot\\Files\\Screenshot (49)-78.png",
       "SourceId": "filefer.Web",
       "SourceType": "Discovered",
@@ -406,6 +423,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Files\\Screenshot (54)-5549.png"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\filefer\\filefer.Web\\wwwroot\\Files\\UNEC__1677578347-452.pptx",
+      "SourceId": "filefer.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\filefer\\filefer.Web\\wwwroot\\",
+      "BasePath": "_content/filefer.Web",
+      "RelativePath": "Files/UNEC__1677578347-452.pptx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\UNEC__1677578347-452.pptx"
     },
     {
       "Identity": "C:\\Users\\User\\Documents\\GitHub\\filefer\\filefer.Web\\wwwroot\\img\\files.gif",

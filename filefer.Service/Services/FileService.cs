@@ -36,13 +36,14 @@ namespace filefer.Service.Services
         public async Task UploadFileAsync(UploadedFileViewModel model)
         {
 
-            string FullName = await fileHelper.Upload(model.File);
+            AddFileViewModel addedFile = await fileHelper.Upload(model.File);
 
             UploadedFile file = new UploadedFile
             {
-                FileName = FullName,
+                FileName = addedFile.FullName,
                 FileType = model.File.ContentType,
                 UserId = model.UserId,
+                FileSize = addedFile.FileSize
             };
 
             await unitOfWork.GetRepository<UploadedFile>().AddAsync(file);
