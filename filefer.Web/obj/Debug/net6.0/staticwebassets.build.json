@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wU6NmoKWVcodDb9TnvJR923OWZ3qP8/ArXrvnEIOhKA=",
+  "Hash": "i6xTObF35SyTUFlpq9qgbSz+zzd7/R1/4E8bUXDNmsg=",
   "Source": "filefer.Web",
   "BasePath": "_content/filefer.Web",
   "Mode": "Default",
@@ -289,6 +289,23 @@
       "OriginalItemSpec": "wwwroot\\Files\\Screenshot (50)-2134.png"
     },
     {
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\filefer\\filefer.Web\\wwwroot\\Files\\Screenshot (50)-3130.png",
+      "SourceId": "filefer.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\filefer\\filefer.Web\\wwwroot\\",
+      "BasePath": "_content/filefer.Web",
+      "RelativePath": "Files/Screenshot (50)-3130.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\Screenshot (50)-3130.png"
+    },
+    {
       "Identity": "C:\\Users\\User\\Documents\\GitHub\\filefer\\filefer.Web\\wwwroot\\Files\\Screenshot (50)-531.png",
       "SourceId": "filefer.Web",
       "SourceType": "Discovered",
@@ -321,6 +338,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Files\\Screenshot (51)-2930.png"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\filefer\\filefer.Web\\wwwroot\\Files\\Screenshot (52)-3123.png",
+      "SourceId": "filefer.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\filefer\\filefer.Web\\wwwroot\\",
+      "BasePath": "_content/filefer.Web",
+      "RelativePath": "Files/Screenshot (52)-3123.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\Screenshot (52)-3123.png"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Documents\\GitHub\\filefer\\filefer.Web\\wwwroot\\Files\\Screenshot (53)-3144.png",
+      "SourceId": "filefer.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Documents\\GitHub\\filefer\\filefer.Web\\wwwroot\\",
+      "BasePath": "_content/filefer.Web",
+      "RelativePath": "Files/Screenshot (53)-3144.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\Screenshot (53)-3144.png"
     },
     {
       "Identity": "C:\\Users\\User\\Documents\\GitHub\\filefer\\filefer.Web\\wwwroot\\Files\\Screenshot (53)-642.png",
