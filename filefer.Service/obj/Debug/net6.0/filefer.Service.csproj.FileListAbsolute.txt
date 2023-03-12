@@ -1,0 +1,17 @@
+C:\Users\User\Documents\GitHub\filefer\filefer.Service\bin\Debug\net6.0\filefer.Service.deps.json
+C:\Users\User\Documents\GitHub\filefer\filefer.Service\bin\Debug\net6.0\filefer.Service.dll
+C:\Users\User\Documents\GitHub\filefer\filefer.Service\bin\Debug\net6.0\filefer.Service.pdb
+C:\Users\User\Documents\GitHub\filefer\filefer.Service\obj\Debug\net6.0\filefer.Service.csproj.AssemblyReference.cache
+C:\Users\User\Documents\GitHub\filefer\filefer.Service\obj\Debug\net6.0\filefer.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\GitHub\filefer\filefer.Service\obj\Debug\net6.0\filefer.Service.AssemblyInfoInputs.cache
+C:\Users\User\Documents\GitHub\filefer\filefer.Service\obj\Debug\net6.0\filefer.Service.AssemblyInfo.cs
+C:\Users\User\Documents\GitHub\filefer\filefer.Service\obj\Debug\net6.0\filefer.Service.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\filefer\filefer.Service\obj\Debug\net6.0\filefer.Service.dll
+C:\Users\User\Documents\GitHub\filefer\filefer.Service\obj\Debug\net6.0\refint\filefer.Service.dll
+C:\Users\User\Documents\GitHub\filefer\filefer.Service\obj\Debug\net6.0\filefer.Service.pdb
+C:\Users\User\Documents\GitHub\filefer\filefer.Service\obj\Debug\net6.0\ref\filefer.Service.dll
+C:\Users\User\Documents\GitHub\filefer\filefer.Service\bin\Debug\net6.0\filefer.Data.dll
+C:\Users\User\Documents\GitHub\filefer\filefer.Service\bin\Debug\net6.0\filefer.Entity.dll
+C:\Users\User\Documents\GitHub\filefer\filefer.Service\bin\Debug\net6.0\filefer.Data.pdb
+C:\Users\User\Documents\GitHub\filefer\filefer.Service\bin\Debug\net6.0\filefer.Entity.pdb
+C:\Users\User\Documents\GitHub\filefer\filefer.Service\obj\Debug\net6.0\filefer.Service.csproj.CopyComplete
